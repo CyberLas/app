@@ -1,0 +1,19 @@
+{
+  "name": "app",
+  "version": "1.0.0.0",
+  "description": "bot de aplicativos",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "CyberLas",
+  "license": "CyberLas",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "debug-level": "^2.0.2",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "puppeteer": "^9.1.1"
+  }
+}
